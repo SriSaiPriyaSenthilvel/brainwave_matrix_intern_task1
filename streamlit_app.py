@@ -12,8 +12,8 @@ from sklearn.pipeline import make_pipeline
 st.set_page_config(page_title="Fake News Detector", page_icon="📰", layout="wide")
 
 # Load dataset
-true_df = pd.read_csv("True.csv")
-fake_df = pd.read_csv("Fake.csv")
+true_df = pd.read_csv("True_reduced.csv")
+fake_df = pd.read_csv("Fake_reduced.csv")
 
 # Label data
 true_df["label"] = 1  # Real news
