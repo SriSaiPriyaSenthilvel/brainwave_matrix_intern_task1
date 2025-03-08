@@ -1,25 +1,32 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# AI-Powered News Classification 🚀
+## Overview
+This project is part of my internship at Brainwave Matrix Solutions, where I built an AI model to classify news articles based on patterns from a given dataset. The model analyzes text data and predicts whether a news article aligns with the dataset’s learned patterns.
 
-Description of the app ...
+## Features
+✔️ Data Preprocessing – Cleaning and preparing the dataset for training
+✔️ ML Model Training – Implementing machine learning techniques for text classification
+✔️ Evaluation & Analysis – Measuring model performance on test data
+✔️ Streamlit Web App – A user-friendly interface to interact with the model
 
-## Demo App
+## Tech Stack
+🔹 Python
+🔹 Streamlit
+🔹 Pandas
+🔹 Scikit-learn
+🔹 NumPy
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+## How It Works
+1️⃣ Input a news article into the web app
+2️⃣ The model analyzes the text and predicts a category based on its training data
+3️⃣ The output provides insights based on learned patterns from the dataset
 
-## GitHub Codespaces
+## Limitations
+⚠️ This model only makes predictions within the scope of the dataset it was trained on. It does not verify real-world accuracy beyond the given data.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+## Future Enhancements
+🚀 Expanding the dataset for better generalization
+📈 Implementing deep learning techniques for improved accuracy
+🌍 Exploring real-time news validation with external sources
 
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+## Link
+https://brainwavematrixinterntask1-uxald3dpifzou9onmqr24m.streamlit.app/
