@@ -13,7 +13,7 @@ st.set_page_config(page_title="Fake News Detector", page_icon="📰", layout="wi
 
 # Load dataset
 true_df = pd.read_csv("True_reduced.csv")
-fake_df = pd.read_csv("Fake_reduced.csv")
+fake_df = pd.read_csv("Fake_reduced_final.csv")
 
 # Label data
 true_df["label"] = 1  # Real news
